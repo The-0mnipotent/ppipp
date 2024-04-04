@@ -4,112 +4,15 @@
   align-items: center;
 }
 
-.header {
-  width: 100%;
-  height: 200px; /* Set the desired height of the header */
-  background-image: url("../assets/header-image.jpg"); /* Add the path to your protein image */
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5; /* Adjust opacity as needed */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.heading {
-  font-size: 3rem;
-  color: #ffffff; /* Change the color of the heading text */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better contrast */
-}
-
-.subheading {
-  font-size: 1.5rem;
-  color: #ffffff; /* Change the color of the subheading text */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow for better contrast */
-}
-
 .content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start; /* Change to flex-start */
   width: 100%;
-  height: calc(100vh - 200px); /* Adjust the header's height */
+  /* height: calc(100vh - 200px); Adjust the header's height */
+  height: 100%;
   max-width: 1200px;
   background-color: #ffffff;
   padding: 20px; /* Add padding */
   border-radius: 10px; /* Add border-radius */
-}
-
-.navigation {
-  background-color: #5a5858;
-
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.list-heading {
-  color: #ffffff;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.navigation-list ul {
-  list-style: none;
-  padding: 0;
-}
-
-.nav-link {
-  color: #c0b3b3;
-  text-decoration: none;
-  font-size: 1.1rem;
-  margin: 15px;
-}
-
-.nav-link:hover {
-  color: #f00; /* Change color on hover */
-}
-
-.input-section {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-.input {
-  display: flex;
-}
-
-.input textarea {
-  width: 100%; /* Set width to 100% */
-  height: 200px; /* Set height to 200px or adjust as needed */
-  padding: 10px; /* Add padding */
-  margin-bottom: 10px; /* Add margin-bottom for spacing */
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  resize: none; /* Disable resizing */
-  margin: 20px;
-}
-
-.submit-button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.submit-button:hover {
-  background-color: #0056b3;
 }
